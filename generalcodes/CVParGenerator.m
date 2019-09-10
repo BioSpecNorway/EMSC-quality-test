@@ -1,6 +1,18 @@
 function CVPar = CVParGenerator(CVPar,X)
-% function CV = CVParGenerator(NX,CVType,CVFold)
-% Fill in the dscription!!!
+% function CV = CVParGenerator(CVPar,X)
+% Input: CVPar contains CVPar.CVType which splits the data by
+%        'Full CV' or leave-one-out
+%        'Contiguous Blocks' in K blocks, number specified in CVPar.cvfold
+%        'Venetian Blinds' in K blocks, number specified in CVPar.cvfold
+%        'Random Subsets' in K blocks, number specified in CVPar.cvfold
+%        'Specified' according to the group identified by the labels in
+%                    name position in CVPar.cvind (1x2)
+% Output: CVPar: cv containing labels of groups
+%                fold number of blocks
+%                ind index in name for *Specified*
+%                
+% by V.Tafintseva 20.05.2015
+
 %%
 CVType = CVPar.CVType;
 

@@ -19,7 +19,7 @@ clear all
 close all
 
 %% Set path to ako's functions
-Mainpath=genpath('\\nmbu.no\my\home\Documents\My Articles\EMSC QT paper\codes2publish\generalcodes');
+Mainpath=genpath('C:\Users\valeta\Documents\codes-for-emsc-quality-test-paper-by-v.tafintseva\generalcodes');
 addpath(Mainpath);
 loadPath='\\nmbu.no\my\home\Documents\My Articles\EMSC QT paper\data\images\';
 %%

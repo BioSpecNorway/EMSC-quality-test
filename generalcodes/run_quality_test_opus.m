@@ -28,8 +28,6 @@ function [ZSaisirQT,IdentAll]=run_quality_test_opus(ZSaisir)
 %  Output:  Quality analysis                                                           %
 %                                                                                      %
 %                                                                                      %
-%  Status:  not working ????                                                           %
-%                                                                                      %
 %                                                                                      %
 %                                                                                      %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -3,7 +3,6 @@ function ZY = split2levels(NameRange,saisir)
 NumLevels = size(NameRange,1);
 ZYExt = cell(1,NumLevels);
 ZY = cell(1,NumLevels);
-ZYAdd = cell(1,NumLevels);
 
 for i = 1:NumLevels
 Range = NameRange{i};
